@@ -39,8 +39,11 @@ layout: layouts/base.njk
             <a href="{{foundry.licenseUrl}}">{{foundry.name}}</a>
           </td>
           <td class="foundry-support">
-            {% set foo %}{{ foundry.support }}{% endset %}{% include "icon.njk"
-            %}&nbsp;{{foundry.support}}
+            {% set foo %}{{ foundry.support }}{% endset %}
+            <div class="foundry-supportwrapper">
+              {% include "icon.njk"%} 
+              {{foundry.support}}
+            </div>
           </td>
           <td class="foundry-license">
             {{foundry.license}}

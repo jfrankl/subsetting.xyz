@@ -160,7 +160,8 @@ th {
 td,
 th {
   text-align: left;
-  padding: var(--space-300) var(--space-400);
+  padding: var(--space-300) var(--space-300);
+  vertical-align: top;
   &:first-child {
     padding-left: 0;
   }
@@ -227,10 +228,11 @@ strong {
     white-space: nowrap;
     font-weight: 500;
     svg {
-      height: 24px;
-      width: 24px;
+      height: 21px;
+      width: 21px;
       position: relative;
       top: 3px;
+      margin-right: 4px;
       @media (max-width: 600px) {
         width: 17px;
         height: 17px;
