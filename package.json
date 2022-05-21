@@ -1,0 +1,44 @@
+{
+  "name": "subsetting.xyz",
+  "version": "0.0.1",
+  "description": "An overview of which type foundries support font subsetting",
+  "scripts": {
+    "watch:sass": "sass --watch _includes/sass:_site/css",
+    "watch:eleventy": "eleventy --serve --incremental",
+    "build:sass": "sass _includes/sass:_site/css",
+    "build:eleventy": "eleventy --incremental",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git://github.com/jfrankl/subsetting.xyz.git"
+  },
+  "author": {
+    "name": "Jeff Frankl",
+    "url": "https://frankl.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfrankl/subsetting.xyz/issues"
+  },
+  "homepage": "https://subsetting.xyz",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
+    "netlify-plugin-cache": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^2.0.1",
+    "clean-css": "^5.3.0",
+    "html-minifier": "^4.0.0",
+    "purgecss": "^4.1.3",
+    "sass": "^1.52.0",
+    "sharp": "^0.30.4",
+    "terser": "^5.13.1"
+  }
+}

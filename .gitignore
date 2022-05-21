@@ -1,0 +1,15 @@
+# 11ty
+_site/
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
+
+# Yarn
+yarn-lock.json
+yarn-error.log
+
+# Netlify
+.netlify

@@ -1,0 +1,101 @@
+:root {
+  --background: #f4efe9;
+  --background-alt: #fafafa;
+  --background-inverted: #1c1c1c;
+  --heading: hsl(0deg 0% 0%);
+  --heading-inverted: #fff;
+  --text: hsl(0deg 0% 10%);
+  --text-inverted: #fff;
+  --link: #025e87;
+  --hr: 2px solid var(--heading);
+  --light: #eee;
+
+  --primary: #27abbc;
+  --secondary: #353e53;
+
+  --font-family: "hex-franklin", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
+    sans-serif;
+
+  --container: 960px;
+  --container-padding: var(--space-400);
+
+  --space-1200: 60px;
+  --space-1100: 55px;
+  --space-1000: 50px;
+  --space-900: 45px;
+  --space-800: 40px;
+  --space-700: 35px;
+  --space-600: 30px;
+  --space-500: 25px;
+  --space-400: 20px;
+  --space-300: 15px;
+  --space-200: 10px;
+  --space-100: 5px;
+  --space-50: 2.5px;
+
+  --height-heading: 1.1;
+  --height-text: 1.5;
+
+  --size-900: 58px;
+  --size-800: 38px;
+  --size-700: 28px;
+  --size-600: 21px;
+  --size-500: 18px;
+  --size-400: 16px;
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --size-900: 48px;
+    --size-800: 36px;
+    --size-700: 24px;
+    --size-600: 16px;
+    --size-500: 14px;
+    --size-400: 14px;
+  }
+}
+
+@media (max-width: 740px) {
+  :root {
+    --size-900: 30px;
+    --size-800: 21px;
+    --size-700: 18px;
+    --size-600: 16px;
+    --size-500: 14px;
+    --size-400: 14px;
+
+    --space-1200: 48px;
+    --space-1100: 44px;
+    --space-1000: 40px;
+    --space-900: 36px;
+    --space-800: 32px;
+    --space-700: 28px;
+    --space-600: 24px;
+    --space-500: 20px;
+    --space-400: 16px;
+    --space-300: 12px;
+    --space-200: 8px;
+    --space-100: 4px;
+    --space-50: 2px;
+
+    --height-text: 1.4;
+    --height-heading: 1.05;
+    --container-padding: var(--space-200);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1c1c1c;
+    --background-alt: #242424;
+    --background-inverted: #1c1c1c;
+    --light: #444;
+    --heading: #fff;
+    --heading-inverted: #fff;
+    --text: #fff;
+    --text-inverted: #fff;
+    --link: #98b9f0;
+    --hr: "1px solid rgba(255, 255, 255, 0.15)";
+  }
+}

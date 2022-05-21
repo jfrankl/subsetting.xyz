@@ -1,0 +1,71 @@
+[
+	{
+		"name": "Grilli Type",
+		"website": "https://www.grillitype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://www.grillitype.com/eula",
+		"license": "You may not modify the Fonts under any circumstance, except by subsetting the character set of the Fonts, meaning using an application or service to reduce the number of characters or features in the Font while not modifying any of the underlying character designs (also known as the design of the typeface) or Font name tables."
+	},
+	{
+		"name": "Klim",
+		"website": "https://klim.co.nz/",
+		"support": "Yes",
+		"licenseUrl": "https://klim.co.nz/licences/web-fonts/",
+		"license": "You can subset the Fonts only for the purpose of reducing the file size. Klim will neither provide subsetted fonts nor software to create subsets. Klim will not support subsetted Fonts. Any subsetted Fonts You create under this clause will be subject to the full terms and conditions of this Agreement."
+	},
+	{
+		"name": "Process",
+		"website": "https://processtypefoundry.com/",
+		"support": "Yes",
+		"licenseUrl": "https://processtypefoundry.com/help/base/webfont-license-agreement/",
+		"license": "The following are allowed by this agreement; you may: … Remove glyphs from the fonts (“subsetted fonts”) solely for the purpose of reducing the font’s file size. The use of the subsetted fonts remains controlled by this agreement and no other modifications are allowed. Process will not support the resulting amended fonts."
+	},
+	{
+		"name": "HEX",
+		"website": "https://hex.xyz/",
+		"support": "Yes",
+		"licenseUrl": "https://incremental-production.s3.us-west-2.amazonaws.com/uploads/typeface/license_file/325/__HEX_license.pdf",
+		"license": "You may only modify the fonts for your own purposes. You must not distribute any modified version of the fonts. Any modified versions of the fonts remain the property of HEX and are subject to the same license and limitations."
+	},
+	{
+		"name": "Commercial",
+		"website": "https://commercialtype.com/",
+		"support": "Maybe",
+		"licenseUrl": "https://commercialtype.com/faqs/technical_faq/web1",
+		"license": "FAQ mentions “we can help by subsetting the fonts”, but it is unclear whether individuals are allowed to subset fonts they purchase."
+	},
+	{
+		"name": "Milieu Grotesque",
+		"website": "https://www.milieugrotesque.com/",
+		"support": "No",
+		"license": "Licensee agrees not to modify, adapt, translate, reverse engineer, change the file format, decompile, disassemble, alter, or attempt to discover the source code of the Font Software except as explicitly provided for in this Agreement. If Licensee wishes to modify or change the file format of the Font Software, Licensee must obtain the prior written consent of Milieu Grotesque.",
+		"licenseUrl": "https://content.milieugrotesque.com/files/Milieu%20Grotesque%20Webfont%20License.pdf"
+	},
+	{
+		"name": "Frere-Jones",
+		"website": "https://frerejones.com/",
+		"support": "No",
+		"licenseUrl": "https://frerejones.com/licensing/web",
+		"license": "Under no circumstances may you, nor may you cause any third party to, modify, alter, translate, convert or otherwise change the Font Software in any manner whatsoever, including converting the Font Software into a different font format or using any tool or service to subset or otherwise modify the Font Software."
+	},
+	{
+		"name": "Hoefler&Co",
+		"website": "https://www.typography.com/",
+		"support": "No",
+		"license": "Licensee may not … extract, decompile, modify, reformat, translate, reverse-engineer, assemble, re-digitize, or discover the source code of, or remove or disable any Security Feature of, any Licensed Software or other H&Co Property.",
+		"licenseUrl": "https://www.typography.com/policies/eula"
+	},
+	{
+		"name": "Sharp",
+		"website": "https://sharptype.co/",
+		"support": "No",
+		"licenseUrl": "https://sharptype.co/licensing/webfonts/",
+		"license": "If you modify, alter or “improve” the Font Software in any way, you will have violated this license …"
+	},
+	{
+		"name": "Colophon",
+		"website": "https://www.colophon-foundry.org/",
+		"support": "No",
+		"license": "Any modifications of our font software is strictly prohibited."
+	}
+]
