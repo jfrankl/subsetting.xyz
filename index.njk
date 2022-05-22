@@ -4,9 +4,7 @@ layout: layouts/base.njk
 
 <div class="container">
   <h1 class="sr-only">Subsetting.xyz</h1>
-  <div
-    class="glyphs"
-  >
+  <div class="glyphs">
     <div class="glyph" aria-hidden="true"><span>A</span></div>
     <div class="glyph removed" aria-hidden="true"><span>B</span></div>
     <div class="glyph" aria-hidden="true"><span>C</span></div>
@@ -17,12 +15,14 @@ layout: layouts/base.njk
   <section>
     <h2>Which type foundries support font subsetting?</h2>
     <p>
-      Subsetting is the process of removing unused characters from a font,
-      reducing its file size. While font subsetting can significantly improve
-      the speed of your website—especially for users with inconsistent internet
-      access—some type foundries have restrictive licenses that prevent you from
-      editing fonts files. Use this site to find type foundries with
-      subsetting-friendly licenses.
+      Subsetting is the process of removing characters from a font to reduce its
+      file size. Fonts often include letters and symbols for multiple languages.
+      While removing unused characters from a font can substantially improve
+      performance,
+      <strong
+        >many type foundries have restrictive licenses that prevent editing font
+        files</strong
+      >. Use this site to find type foundries that support font subsetting.
     </p>
     <div class="table-container">
       <table>
@@ -40,8 +40,7 @@ layout: layouts/base.njk
           <td class="foundry-support">
             {% set foo %}{{ foundry.support }}{% endset %}
             <div class="foundry-supportwrapper">
-              {% include "icon.njk"%} 
-              {{foundry.support}}
+              {% include "icon.njk"%} {{foundry.support}}
             </div>
           </td>
           <td class="foundry-license">
@@ -58,10 +57,7 @@ layout: layouts/base.njk
 
   <section>
     <h3>Resources</h3>
-    <p>
-      Ready to get started with font subsetting? These links should point you in
-      the right direction.
-    </p>
+    <p>Ready to get started with font subsetting?</p>
     <ul>
       <li>
         <a href="https://fonts.google.com/knowledge/glossary/subsetting"
@@ -73,19 +69,34 @@ layout: layouts/base.njk
         >—Web-based subsetting tool
       </li>
       <li>
-        <a
-          href="https://github.com/fonttools/fonttools"
-          >fonttools</a
+        <a href="https://github.com/fonttools/fonttools">fonttools</a
         >—Python-based subsetting tool
       </li>
     </ul>
   </section>
 
   <section>
+    <h3>Q&A</h3>
+    <h4>How much does this matter?</h4>
+    <p>
+      The change in file size depends on how much you remove. When I’ve created a subset for English, a decrease from 50KB to 15KB has been typical.
+    </p>
+    <h4>What if I need those other characters sometimes?</h4>
+    <p>
+      If you might need to support a different language on one page, or your website will support multiple languages, you can create multiple subsets. Use the <a href="https://css-tricks.com/almanac/properties/u/unicode-range/">unicode-range</a> property to tell the browser which subset to load.
+    </p>
+    <h4>What about Google Fonts?</h4>
+    <p>
+      Google Fonts sources from multiple foundries, and licenses vary. Most use
+      the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a>, which supports subsetting.
+    </p>
+  </section>
+
+  <section>
     <h3>Feedback</h3>
     <p>
       Does something look wrong? Want to add your type foundry? Send me an
-      <a href="mailto:jeff@subsetting.xyz">email</a> or post a
+      <a href="mailto:contact@subsetting.xyz">email</a> or post a
       <a href="https://github.com/jfrankl/subsetting.xyz/issues">Github issue</a
       >.
     </p>
@@ -100,7 +111,7 @@ layout: layouts/base.njk
     </div>
     <div class="footer-links">
       <ul>
-        <li><a href="mailto:jeff@subsetting.xyz">Contact</a></li>
+        <li><a href="mailto:contact@subsetting.xyz">Contact</a></li>
         <li><a href="https://github.com/jfrankl/subsetting.xyz">Github</a></li>
       </ul>
     </div>

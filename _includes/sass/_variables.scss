@@ -17,7 +17,7 @@
     avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
     sans-serif;
 
-  --container: 960px;
+  --container: 1040px;
   --container-padding: var(--space-400);
 
   --space-1200: 60px;
@@ -37,12 +37,12 @@
   --height-heading: 1.1;
   --height-text: 1.5;
 
-  --size-900: 58px;
-  --size-800: 38px;
-  --size-700: 28px;
-  --size-600: 21px;
-  --size-500: 18px;
-  --size-400: 16px;
+  --size-900: 61.47px;
+  --size-800: 43.9px;
+  --size-700: 31.4px;
+  --size-600: 22.4px;
+  --size-500: 16px;
+  --size-400: 14px;
 }
 
 @media (max-width: 1000px) {
@@ -91,10 +91,10 @@
     --background-alt: #242424;
     --background-inverted: #1c1c1c;
     --light: #444;
-    --heading: #fff;
-    --heading-inverted: #fff;
-    --text: #fff;
-    --text-inverted: #fff;
+    --heading: hsl(0deg 0% 100%);
+    --heading-inverted: hsl(0deg 0% 100%);
+    --text: hsl(0deg 0% 90%);
+    --text-inverted: hsl(0deg 0% 90%);
     --link: #98b9f0;
     --hr: "1px solid rgba(255, 255, 255, 0.15)";
   }
