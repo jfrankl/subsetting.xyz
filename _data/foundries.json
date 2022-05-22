@@ -56,6 +56,13 @@
 		"licenseUrl": "https://www.typography.com/policies/eula"
 	},
 	{
+		"name": "Lineto",
+		"website": "https://lineto.com/",
+		"support": "No",
+		"licenseUrl": "https://lineto.com/api/front/documents/eula",
+		"license": "Modifying the Font Software is prohibited, even in the event that it is necessary for fullling personal design requirements."
+	},
+	{
 		"name": "Sharp",
 		"website": "https://sharptype.co/",
 		"support": "No",
