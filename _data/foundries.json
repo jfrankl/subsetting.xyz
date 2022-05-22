@@ -66,6 +66,14 @@
 		"name": "Colophon",
 		"website": "https://www.colophon-foundry.org/",
 		"support": "No",
+		"licenseUrl": "https://www.colophon-foundry.org/pdfs/eula/Colophon-Foundry-Desktop-EULA-May20.pdf",
 		"license": "Any modifications of our font software is strictly prohibited."
+	},
+	{
+		"name": "Displaay",
+		"website": "https://displaay.net/",
+		"support": "No",
+		"license": "You are not allowed to (or enable a third party to) alter, modify, rename, convert or otherwise change the webfonts or to create derivative works from the webfonts or any their parts …",
+		"licenseUrl": "https://displaay.net/about/licenses/web/"
 	}
 ]
