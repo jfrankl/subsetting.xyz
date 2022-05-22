@@ -21,6 +21,13 @@
 		"license": "You can subset the Fonts only for the purpose of reducing the file size. Klim will neither provide subsetted fonts nor software to create subsets. Klim will not support subsetted Fonts. Any subsetted Fonts You create under this clause will be subject to the full terms and conditions of this Agreement."
 	},
 	{
+		"name": "Okay Type",
+		"website": "https://okaytype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://okaytype.com/info/eula",
+		"license": "… you are allowed to subset the fonts in order to reduce their file size. Okay Type is not responsible, however, for any technical issues that might result from your subsetting. "
+	},
+	{
 		"name": "Process",
 		"website": "https://processtypefoundry.com/",
 		"support": "Yes",
