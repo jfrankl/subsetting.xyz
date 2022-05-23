@@ -35,7 +35,7 @@ layout: layouts/base.njk
         {% for foundry in foundries %}
         <tr class="foundry">
           <td class="foundry-name">
-            <a href="{{foundry.licenseUrl}}">{{foundry.name}}</a>
+            <a href="{{foundry.website}}">{{foundry.name}}</a>
           </td>
           <td class="foundry-support">
             {% set foo %}{{ foundry.support }}{% endset %}
