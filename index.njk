@@ -59,13 +59,13 @@ layout: layouts/base.njk
     <h3>Q&A</h3>
     <h4>How do I subset fonts?</h4>
     <p>We recommend using the library <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>. This <a href="https://florianbrinkmann.com/en/glyphhanger-4691/">tutorial</a> by Florian Brinkmann provides helpful step-by-step instructions.
-    <h4>How does this matter?</h4>
+    <h4>How big of a difference does it make?</h4>
     <p>
-      The change in file size depends on how many characters you remove. When I’ve created a subset for English, a <strong>decrease from 45kB to 15kB</strong> has been typical per font.
+      The change in file size depends on how many characters you remove. When I’ve created a subset for English, a <strong>reduction from 45KB to 15KB per font</strong> has been typical.
     </p>
-    <h4>Are there downsides to subsetting?</h4>
+    <h4>Is there a downside?</h4>
     <p>
-      There are a few potential pitfalls with subsetting that are hard to spot. First, subsetting can remove kerning or OpenType features; we haven't had that experience with <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>, but it has happened with other tools.
+      There are a few pitfalls with subsetting that are hard to spot. First, subsetting can remove kerning or OpenType features; we haven't had that experience with <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>, but it has happened with other tools.
     </p>
     <p>
       Second, subsetting can cause weirdness with website translation tools. If you create a subset with only English characters and a visitor uses Google Translate to read in Spanish, the letter E will use your custom typeface while the letter É will use the fallback. The solution: create multiple subsets—one for the primary language, and one for additional characters. You can use the <a href="https://css-tricks.com/almanac/properties/u/unicode-range/">unicode-range</a> property to tell the browser which subset(s) to load.
