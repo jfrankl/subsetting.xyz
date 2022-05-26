@@ -1,38 +1,52 @@
 [
 	{
+		"name": "Fontwerk",
+		"website": "https://www.fontwerk.com/",
+		"support": "Yes",
+		"licenseUrl": "https://fontwerk.com/en/eula",
+		"license": "The Licensee is not entitled to change, adapt, translate, reverse engineer, decompile, disassemble or dismantle, modify or attempt to discover the source code of the Font Software in any other way. <strong>Nevertheless, you are permitted to subset web fonts</strong>."
+	},
+	{
 		"name": "Grilli Type",
 		"website": "https://www.grillitype.com/",
 		"support": "Yes",
 		"licenseUrl": "https://www.grillitype.com/eula",
-		"license": "You may not modify the Fonts under any circumstance, except by subsetting the character set of the Fonts, meaning using an application or service to reduce the number of characters or features in the Font while not modifying any of the underlying character designs (also known as the design of the typeface) or Font name tables."
+		"license": "You may not modify the Fonts under any circumstance, <strong>except by subsetting the character set of the Fonts</strong>, meaning using an application or service to reduce the number of characters or features in the Font while not modifying any of the underlying character designs (also known as the design of the typeface) or Font name tables."
 	},
 	{
 		"name": "HEX",
 		"website": "https://hex.xyz/",
 		"support": "Yes",
 		"licenseUrl": "https://incremental-production.s3.us-west-2.amazonaws.com/uploads/typeface/license_file/325/__HEX_license.pdf",
-		"license": "You may only modify the fonts for your own purposes. You must not distribute any modified version of the fonts. Any modified versions of the fonts remain the property of HEX and are subject to the same license and limitations."
+		"license": "You may only modify the fonts <strong>for your own purposes</strong>. You must not distribute any modified version of the fonts. Any modified versions of the fonts remain the property of HEX and are subject to the same license and limitations."
 	},
 	{
 		"name": "Klim",
 		"website": "https://klim.co.nz/",
 		"support": "Yes",
 		"licenseUrl": "https://klim.co.nz/licences/web-fonts/",
-		"license": "You can subset the Fonts only for the purpose of reducing the file size. Klim will neither provide subsetted fonts nor software to create subsets. Klim will not support subsetted Fonts. Any subsetted Fonts You create under this clause will be subject to the full terms and conditions of this Agreement."
+		"license": "You can subset the Fonts <strong>only for the purpose of reducing the file size</strong>. Klim will neither provide subsetted fonts nor software to create subsets. Klim will not support subsetted Fonts. Any subsetted Fonts You create under this clause will be subject to the full terms and conditions of this Agreement."
 	},
 	{
 		"name": "Okay Type",
 		"website": "https://okaytype.com/",
 		"support": "Yes",
 		"licenseUrl": "https://okaytype.com/info/eula",
-		"license": "… you are allowed to subset the fonts in order to reduce their file size. Okay Type is not responsible, however, for any technical issues that might result from your subsetting. "
+		"license": "… <strong>you are allowed to subset the fonts in order to reduce their file size</strong>. Okay Type is not responsible, however, for any technical issues that might result from your subsetting. "
 	},
 	{
 		"name": "Process",
 		"website": "https://processtypefoundry.com/",
 		"support": "Yes",
 		"licenseUrl": "https://processtypefoundry.com/help/base/webfont-license-agreement/",
-		"license": "The following are allowed by this agreement; you may: … Remove glyphs from the fonts (“subsetted fonts”) solely for the purpose of reducing the font’s file size. The use of the subsetted fonts remains controlled by this agreement and no other modifications are allowed. Process will not support the resulting amended fonts."
+		"license": "The following are allowed by this agreement; you may: … Remove glyphs from the fonts <strong>(“subsetted fonts”)</strong> solely for the purpose of reducing the font’s file size. The use of the subsetted fonts remains controlled by this agreement and no other modifications are allowed. Process will not support the resulting amended fonts."
+	},
+	{
+		"name": "Razziatype",
+		"website": "https://www.razziatype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://www.razziatype.com/licenses/web",
+		"license": "You must not modify the fonts under any circumstance <strong>with the exception of subsetting the character set of the fonts</strong>. “Subsetting” shall mean to reduce the number of characters or features in the fonts using an application or service. "
 	},
 	{
 		"name": "Commercial",
