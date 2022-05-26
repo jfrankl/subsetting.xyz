@@ -1,0 +1,27 @@
+<table>
+  <tr>
+    <th>Foundry</th>
+    <th>Subsetting</th>
+    <th>License</th>
+    <th></th>
+  </tr>
+  {% for foundry in foundries %}
+  <tr class="foundry">
+    <td class="foundry-name">
+      <a href="{{foundry.website}}">{{foundry.name}}</a>
+    </td>
+    <td class="foundry-support">
+      {% set foo %}{{ foundry.support }}{% endset %}
+      <div class="foundry-supportwrapper">
+        {% include "icon.njk"%} {{foundry.support}}
+      </div>
+    </td>
+    <td class="foundry-license">
+      {{foundry.license | safe}}
+      <a class="foundry-licenselink" href="{{foundry.licenseUrl}}"
+        >View license</a
+      >
+    </td>
+  </tr>
+  {% endfor %}
+</table>

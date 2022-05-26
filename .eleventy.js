@@ -4,29 +4,33 @@ const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 const htmlmin = require("html-minifier");
 const { PurgeCSS } = require("purgecss");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
-module.exports = function (config) {
-  // Copy font directory to _site
-  config.addPassthroughCopy("fonts");
+module.exports = function (eleventyConfig) {
+  // Add plugins
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-  // Remove unused css and inline
-  config.addTransform("purge-and-inline-css", async (content, outputPath) => {
-    const purgeCSSResults = await new PurgeCSS().purge({
-      content: [{ raw: content }],
-      css: ["_site/css/index.css"],
-      keyframes: true,
-    });
+  // Remove unused css and inline css
+  eleventyConfig.addTransform(
+    "purge-and-inline-css",
+    async (content, outputPath) => {
+      const purgeCSSResults = await new PurgeCSS().purge({
+        content: [{ raw: content }],
+        css: ["_site/css/index.css"],
+        keyframes: true,
+      });
 
-    const cleanCSSResults = new CleanCSS({}).minify(purgeCSSResults[0].css);
+      const cleanCSSResults = new CleanCSS({}).minify(purgeCSSResults[0].css);
 
-    return content.replace(
-      "<!-- INLINE CSS-->",
-      "<style>" + cleanCSSResults.styles + "</style>"
-    );
-  });
+      return content.replace(
+        "<!-- INLINE CSS-->",
+        "<style>" + cleanCSSResults.styles + "</style>"
+      );
+    }
+  );
 
   // Minify html
-  config.addTransform("htmlmin", function (content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     if (this.outputPath && this.outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
@@ -44,10 +48,10 @@ module.exports = function (config) {
     breaks: true,
     linkify: true,
   });
-  config.setLibrary("md", markdownLibrary);
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
-  config.setBrowserSyncConfig({
+  eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, browserSync) {
         const content_404 = fs.readFileSync("_site/404.html");

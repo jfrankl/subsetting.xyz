@@ -4,101 +4,22 @@ layout: layouts/base.njk
 
 <div class="container">
   <h1 class="sr-only">Subsetting.xyz</h1>
-  <div class="glyphs">
-    <div class="glyph" aria-hidden="true"><span>A</span></div>
-    <div class="glyph removed" aria-hidden="true"><span>B</span></div>
-    <div class="glyph" aria-hidden="true"><span>C</span></div>
-    <div class="glyph" aria-hidden="true"><span>D</span></div>
-    <div class="glyph removed" aria-hidden="true"><span>E</span></div>
-    <div class="glyph removed" aria-hidden="true"><span>F</span></div>
-  </div>
+  {% include "graphic.njk" %}
   <section>
     <h2>Which type foundries support font subsetting?</h2>
-    <p>
-      Subsetting is the process of removing characters from a font to reduce its
-      file size. Fonts often include letters and symbols for multiple languages.
-      While removing unused characters from a font can substantially improve
-      performance,
-      <strong
-        >many type foundries have restrictive licenses that prevent editing font
-        files</strong
-      >. Use this site to find type foundries that support font subsetting.
-    </p>
+    {% renderFile "./_includes/table-intro.md" %}
     <div class="table-container">
-      <table>
-        <tr>
-          <th>Foundry</th>
-          <th>Subsetting</th>
-          <th>License</th>
-          <th></th>
-        </tr>
-        {% for foundry in foundries %}
-        <tr class="foundry">
-          <td class="foundry-name">
-            <a href="{{foundry.website}}">{{foundry.name}}</a>
-          </td>
-          <td class="foundry-support">
-            {% set foo %}{{ foundry.support }}{% endset %}
-            <div class="foundry-supportwrapper">
-              {% include "icon.njk"%} {{foundry.support}}
-            </div>
-          </td>
-          <td class="foundry-license">
-            {{foundry.license | safe}}
-            <a class="foundry-licenselink" href="{{foundry.licenseUrl}}"
-              >View license</a
-            >
-          </td>
-        </tr>
-        {% endfor %}
-      </table>
+      {% include "table.njk" %}
     </div>
   </section>
-
   <section>
     <h3>Q&A</h3>
-    <h4>How do I subset fonts?</h4>
-    <p>We recommend using the library <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>. This <a href="https://florianbrinkmann.com/en/glyphhanger-4691/">tutorial</a> by Florian Brinkmann provides helpful step-by-step instructions.
-    <h4>How big of a difference does it make?</h4>
-    <p>
-      The change in file size depends on how many characters you remove. When I’ve created a subset for English, a <strong>reduction from 45KB to 15KB per font</strong> has been typical.
-    </p>
-    <h4>Is there a downside?</h4>
-    <p>
-      There are a few pitfalls with subsetting that are hard to spot. First, subsetting can remove kerning or OpenType features; we haven't had that experience with <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>, but it has happened with other tools.
-    </p>
-    <p>
-      Second, subsetting can cause weirdness with website translation tools. If you create a subset with only English characters and a visitor uses Google Translate to read in Spanish, the letter E will use your custom typeface while the letter É will use the fallback. The solution: create multiple subsets—one for the primary language, and one for additional characters. You can use the <a href="https://css-tricks.com/almanac/properties/u/unicode-range/">unicode-range</a> property to tell the browser which subset(s) to load.
-    </p>
-    <h4>Does Google Fonts support subsetting?</h4>
-    <p>
-      Google Fonts sources from multiple foundries, and licenses vary. Most use
-      the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a>, which supports subsetting.
-    </p>
+    {% renderFile "./_includes/q-and-a.md" %}
   </section>
-
   <section>
     <h3>Feedback</h3>
-    <p>
-      Does something look wrong? Want to add your type foundry? Send me an
-      <a href="mailto:contact@subsetting.xyz">email</a> or post a
-      <a href="https://github.com/jfrankl/subsetting.xyz/issues">Github issue</a
-      >.
-    </p>
+    {% renderFile "./_includes/feedback.md" %}
   </section>
 </div>
 
-<footer class="footer">
-  <div class="container">
-    <div class="footer-logo">
-      Built by
-      <a href="https://frankl.org">Jeff Frankl</a>
-    </div>
-    <div class="footer-links">
-      <ul>
-        <li><a href="mailto:contact@subsetting.xyz">Contact</a></li>
-        <li><a href="https://github.com/jfrankl/subsetting.xyz">Github</a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
+{% include "footer.njk" %}
