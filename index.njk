@@ -44,7 +44,7 @@ layout: layouts/base.njk
             </div>
           </td>
           <td class="foundry-license">
-            {{foundry.license}}
+            {{foundry.license | safe}}
             <a class="foundry-licenselink" href="{{foundry.licenseUrl}}"
               >View license</a
             >
@@ -56,34 +56,19 @@ layout: layouts/base.njk
   </section>
 
   <section>
-    <h3>Resources</h3>
-    <p>Ready to get started with font subsetting?</p>
-    <ul>
-      <li>
-        <a href="https://fonts.google.com/knowledge/glossary/subsetting"
-          >Subsetting</a
-        >—Brief description of subsetting by Google Fonts
-      </li>
-      <li>
-        <a href="https://everythingfonts.com/subsetter">Font Subsetter</a
-        >—Web-based subsetting tool
-      </li>
-      <li>
-        <a href="https://github.com/fonttools/fonttools">fonttools</a
-        >—Python-based subsetting tool
-      </li>
-    </ul>
-  </section>
-
-  <section>
     <h3>Q&A</h3>
-    <h4>How much does this matter?</h4>
+    <h4>How do I subset fonts?</h4>
+    <p>We recommend using the library <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>. This <a href="https://florianbrinkmann.com/en/glyphhanger-4691/">tutorial</a> by Florian Brinkmann provides helpful step-by-step instructions.
+    <h4>How does this matter?</h4>
     <p>
-      The change in file size depends on how much you remove. When I’ve created a subset for English, a decrease from 50KB to 15KB has been typical per font.
+      The change in file size depends on how many characters you remove. When I’ve created a subset for English, a <strong>decrease from 45kB to 15kB</strong> has been typical per font.
     </p>
-    <h4>What if I need those removed characters sometimes?</h4>
+    <h4>Are there downsides to subsetting?</h4>
     <p>
-      If you might need to support a different language on one page, or your website will support multiple languages, you can create multiple subsets. Use the <a href="https://css-tricks.com/almanac/properties/u/unicode-range/">unicode-range</a> property to tell the browser which subset to load.
+      There are a few potential pitfalls with subsetting that are hard to spot. First, subsetting can remove kerning or OpenType features; we haven't had that experience with <a href="https://github.com/zachleat/glyphhanger">glyphhanger</a>, but it has happened with other tools.
+    </p>
+    <p>
+      Second, subsetting can cause weirdness with website translation tools. If you create a subset with only English characters and a visitor uses Google Translate to read in Spanish, the letter E will use your custom typeface while the letter É will use the fallback. The solution: create multiple subsets—one for the primary language, and one for additional characters. You can use the <a href="https://css-tricks.com/almanac/properties/u/unicode-range/">unicode-range</a> property to tell the browser which subset(s) to load.
     </p>
     <h4>Does Google Fonts support subsetting?</h4>
     <p>
