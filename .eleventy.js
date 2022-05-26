@@ -8,7 +8,7 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
   // Copy font directory to _site
-  config.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy("fonts");
 
   // Add plugins
   eleventyConfig.addPlugin(EleventyRenderPlugin);
