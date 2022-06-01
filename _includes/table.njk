@@ -19,7 +19,7 @@
     <td class="foundry-license">
       {{foundry.license | safe}}
       <a class="foundry-licenselink" href="{{foundry.licenseUrl}}"
-        >View license</a
+        >View {% if foundry.licenseAltName %}{{foundry.licenseAltName}}{% else %}license{% endif %}</a
       >
     </td>
   </tr>

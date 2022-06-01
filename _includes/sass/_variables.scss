@@ -1,6 +1,7 @@
 :root {
   --background: #f4efe9;
   --background-alt: #fafafa;
+  --removed-color: #999;
   --background-inverted: #1c1c1c;
   --heading: hsl(0deg 0% 0%);
   --heading-inverted: #fff;
@@ -88,6 +89,7 @@
     --background: #1c1c1c;
     --background-alt: #242424;
     --background-inverted: #1c1c1c;
+    --removed-color: #eee;
     --light: #444;
     --heading: hsl(0deg 0% 100%);
     --heading-inverted: hsl(0deg 0% 100%);
