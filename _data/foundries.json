@@ -58,7 +58,7 @@
 	{
 		"name": "Commercial",
 		"website": "https://commercialtype.com/",
-		"support": "Maybe",
+		"support": "Partial",
 		"licenseUrl": "https://commercialtype.com/faqs/technical_faq/web1",
 		"license": "FAQ mentions “we can help by subsetting the fonts”, but it is unclear whether buyers may subset fonts they purchase.",
 		"licenseAltName": "FAQ"
@@ -66,7 +66,7 @@
 	{
 		"name": "Milieu Grotesque",
 		"website": "https://www.milieugrotesque.com/",
-		"support": "Maybe",
+		"support": "Partial",
 		"license": "Buyers may not subset fonts, but Milieu Grotesque will provide a standard subset for free (basic uppercase, lower case, numerals, basic interpunction) on request, or custom glyph tables for a fee.",
 		"licenseUrl": "https://twitter.com/MilieuGrotesque/status/1531690178791841793",
 		"licenseAltName": "tweet"
