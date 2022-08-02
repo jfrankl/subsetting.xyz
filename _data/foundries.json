@@ -61,7 +61,7 @@
 		"support": "Yes",
 		"licenseUrl": "https://xyztype.com/eula/web/",
 		"license": "For example, you are welcome to use a font editor to add a symbol glyph to the OTF or to subset the WOFF character set. But you can’t convert an OTF to a WOFF and then use it on the web."
-	}
+	},
 	{
 		"name": "Commercial",
 		"website": "https://commercialtype.com/",
