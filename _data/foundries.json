@@ -56,6 +56,13 @@
 		"license": "You may not convert the fonts to other font formats, nor may you modify, decompile or instruct a third party to convert, modify or decompile them. Nevertheless, <strong>you are allowed to subset our WebFonts.</strong>"
 	},
 	{
+		"name": "XYZ TYpe",
+		"website": "https://xyztype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://xyztype.com/eula/web/",
+		"license": "For example, you are welcome to use a font editor to add a symbol glyph to the OTF or to subset the WOFF character set. But you can’t convert an OTF to a WOFF and then use it on the web."
+	}
+	{
 		"name": "Commercial",
 		"website": "https://commercialtype.com/",
 		"support": "Partial",
