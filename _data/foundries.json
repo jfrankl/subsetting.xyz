@@ -1,5 +1,12 @@
 [
 	{
+		"name": "DJR",
+		"website": "https://djr.com/",
+		"support": "Yes",
+		"licenseUrl": "https://djr.com/license",
+		"license": "You may also subset and modify the font software itself for your own purposes; any derived versions of the font remain my property and are subject to the same license and limitations."
+	},
+	{
 		"name": "Fontwerk",
 		"website": "https://www.fontwerk.com/",
 		"support": "Yes",
@@ -54,6 +61,13 @@
 		"support": "Yes",
 		"licenseUrl": "https://www.typemates.com/licences/desktop-web",
 		"license": "You may not convert the fonts to other font formats, nor may you modify, decompile or instruct a third party to convert, modify or decompile them. Nevertheless, <strong>you are allowed to subset our WebFonts.</strong>"
+	},
+	{
+		"name": "XYZ Type",
+		"website": "https://xyztype.com",
+		"support": "Yes",
+		"licenseUrl": "https://xyztype.com/eula/web",
+		"license": "For example, you are welcome to use a font editor to add a symbol glyph to the OTF or to subset the WOFF character set."
 	},
 	{
 		"name": "Commercial",
