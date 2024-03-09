@@ -165,5 +165,99 @@
 		"licenseUrl": "https://garagefonts.com/eula",
 		"license": "b. You may not modify, rename or convert the Fonts under any circumstance or alter the source code of the Fonts. c. You may not use the Fonts to create … a custom version of the Fonts. d. You may not translate, reverse engineer, decompile, or disassemble the Fonts or assist someone in performing such acts.",
 		"licenseVersion": "1.0 — February 2023"
+	},
+	{
+		"name": "Swiss Typefaces",
+		"website": "https://www.swisstypefaces.com/",
+		"support": "No",
+		"licenseUrl": "https://www.swisstypefaces.com/media/filer_public/1c/a6/1ca69cd4-7676-439f-b078-fe75cbcfeebf/swisstypefaces-eula-v03.pdf",
+		"license": "You shall not convert, modify or rename the original Font Software. <strong>(Exceptions apply, see C.1)</strong> - subsetting isn't listed in the exceptions"
+	},
+	{
+		"name": "R-Typography",
+		"website": "https://www.r-typography.com/",
+		"support": "No",
+		"licenseUrl": "https://www.r-typography.com/license/web",
+		"license": "You agree not to modify, adapt, translate, reverse engineer, decompile, disassemble, alter, … the Font …"
+	},
+	{
+		"name": "G-Type",
+		"website": "https://www.g-type.com/",
+		"support": "No",
+		"licenseUrl": "https://g-type.com/licensing/webfont-license",
+		"license": "3.2 You are not permitted to create Derivative Work from Font Software or any part thereof …"
+	},
+	{
+		"name": "3IP Type Foundry",
+		"website": "https://www.3ipfonts.com/",
+		"support": "No",
+		"licenseUrl": "https://www.3ipfonts.com/eula_webfonts.html",
+		"license": "3. The Licensee, its agents, and/or its partners may not disassemble or modify The Software in any way, nor convert The Software for any other use, except by express permission of 3IP."
+	},
+	{
+		"name": "Signal Type Foundry",
+		"website": "https://www.signalfoundry.com/",
+		"support": "No",
+		"licenseUrl": "https://signalfoundry.com/signal_eula_web_2.2.pdf",
+		"license": "Modify the fonts in any way …",
+		"licenseVersion": "2.2"
+	},
+	{
+		"name": "Suitcase Type Foundry",
+		"website": "https://www.suitcasetype.com/",
+		"support": "Partial",
+		"licenseUrl": "https://www.suitcasetype.com/help/webfont-set-builder",
+		"license": "There is a set builder tool that does some subsetting, but it is unclear whether buyers may subset fonts they purchase."
+	},
+	{
+		"name": "Fontspring",
+		"website": "https://www.fontspring.com/",
+		"support": "No",
+		"licenseUrl": "https://www.fontspring.com/lic/fontspring/webfont",
+		"license": "Licensed Users are prohibited from modifying the Fonts, or creating derivative Fonts …",
+		"licenseVersion": "2.0"
+	},
+	{
+		"name": "Fontstore",
+		"website": "https://www.fontstore.com/",
+		"support": "No",
+		"licenseUrl": "https://www.fontstore.com/licensing/definitions",
+		"license": "Confirmed by email that it is not allowed. Exceptions are considerd on a case by case basis."
+	},
+	{
+		"name": "Typotheque",
+		"website": "https://www.typotheque.com/",
+		"support": "Partial",
+		"licenseUrl": "https://www.typotheque.com/self-hosting-webfont-licence",
+		"license": "After buying the licence you can create specific font language subsets and apply OpenType features, and after generating the customised fonts you will be able to download the actual WOFF2 font files for self-hosting."
+	},
+	{
+		"name": "Fontfabric",
+		"website": "https://www.fontfabric.com/",
+		"support": "Partial",
+		"licenseUrl": "https://www.fontfabric.com/fontfabric-commercial-eula-for-retail-fonts/",
+		"license": "You cannot subset web fonts, but you can subset fonts in mobile applications (16.1)"
+	},
+	{
+		"name": "atipo foundry",
+		"website": "https://www.atipofoundry.com/",
+		"support": "No",
+		"licenseUrl": "https://www.atipofoundry.com/license",
+		"license": "Nothing is included in the web font license, but the desktop license expressly forbids subsetting."
+	},
+	{
+		"name": "Dalton Maag",
+		"website": "https://www.daltonmaag.com/",
+		"support": "No",
+		"licenseUrl": "https://www.daltonmaag.com/download/dama/LicenceAgreement.pdf",
+		"license": "You otherwise agree not to adapt, modify, alter, translate, convert, create derivative works, or otherwise change any part of the Font Software.",
+		"licenseVersion": "2.0"
+	},
+	{
+		"name": "Optimo",
+		"website": "https://www.optimo.ch/",
+		"support": "No",
+		"licenseUrl": "https://www.optimo.ch/licensing/webfonts",
+		"license": "Only the WOFF, WOFF2, and EOT web-font files provided by Optimo may be used."
 	}
 ]
