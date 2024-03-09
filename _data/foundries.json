@@ -126,5 +126,44 @@
 		"support": "No",
 		"licenseUrl": "https://sharptype.co/licensing/webfonts/",
 		"license": "If you modify, alter or “improve” the Font Software in any way, you will have violated this license …"
+	},
+	{
+		"name": "Letters From Sweden",
+		"website": "https://lettersfromsweden.se/",
+		"support": "Yes",
+		"licenseUrl": "https://lettersfromsweden.se/license/",
+		"license": "The Licensee may not use conversion or editing tools on the Licensed Webfont(s) <strong>except for making subsets.</strong>"
+	},
+	{
+		"name": "F37 Foundry",
+		"website": "https://f37foundry.com/",
+		"support": "No",
+		"licenseUrl": "https://f37foundry.com/eula-additional-terms",
+		"license": "… you will not (and will not cause any third party to) copy, alter, modify, combine, rent, sublicence, merge or otherwise transfer the Fonts …",
+		"licenseVersion": "January 2022"
+	},
+	{
+		"name": "Dinamo",
+		"website": "https://abcdinamo.com/",
+		"support": "Yes",
+		"licenseUrl": "https://abcdinamo.com/licenses",
+		"license": "You’re welcome to self-host and subset the fonts.",
+		"licenseVersion": "2.30"
+	},
+	{
+		"name": "TypeTogether",
+		"website": "https://www.type-together.com/",
+		"support": "No",
+		"licenseUrl": "https://www.type-together.com/webfont-licence",
+		"license": "6. You may not use conversion or editing tools or software to amend, modify or others change or alter the Licensed Webfont(s).",
+		"licenseVersion": "2.0"
+	},
+	{
+		"name": "Garage Fonts",
+		"website": "https://garagefonts.com/",
+		"support": "No",
+		"licenseUrl": "https://garagefonts.com/eula",
+		"license": "b. You may not modify, rename or convert the Fonts under any circumstance or alter the source code of the Fonts. c. You may not use the Fonts to create … a custom version of the Fonts. d. You may not translate, reverse engineer, decompile, or disassemble the Fonts or assist someone in performing such acts.",
+		"licenseVersion": "1.0 — February 2023"
 	}
 ]
