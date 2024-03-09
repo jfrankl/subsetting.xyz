@@ -234,7 +234,7 @@
 	{
 		"name": "Fontfabric",
 		"website": "https://www.fontfabric.com/",
-		"support": "Partial",
+		"support": "No",
 		"licenseUrl": "https://www.fontfabric.com/fontfabric-commercial-eula-for-retail-fonts/",
 		"license": "You cannot subset web fonts, but you can subset fonts in mobile applications (16.1)"
 	},
