@@ -332,5 +332,13 @@
 		"licenseUrl": "https://playtype.com/general-information/eula/",
 		"license": "The Customer is strictly prohibited from … changing or modifying the fonts in any way.",
 		"licenseVersion": "April 2023"
+	},
+	{
+		"name": "Faire Type",
+		"website": "https://www.fairetype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://www.fairetype.com/licensing",
+		"license": "You are permitted to subset the Web Fonts for the sole purpose of reducing file size.",
+		"licenseVersion": "October 2022"
 	}
 ]
