@@ -259,5 +259,78 @@
 		"support": "No",
 		"licenseUrl": "https://www.optimo.ch/licensing/webfonts",
 		"license": "Only the WOFF, WOFF2, and EOT web-font files provided by Optimo may be used."
+	},
+	{
+		"name": "Production Type",
+		"website": "https://www.productiontype.com/",
+		"support": "No",
+		"licenseUrl": "https://help.productiontype.com/docs/EULA/#3-limitations",
+		"license": "The User may not … subset the Font"
+	},
+	{
+		"name": "General Type Studio",
+		"website": "https://www.generaltypestudio.com/",
+		"support": "No",
+		"licenseUrl": "https://www.generaltypestudio.com/licenses/web",
+		"license": "You are not permitted to alter the Font Software in any manner whatsoever."
+	},
+	{
+		"name": "PampaType",
+		"website": "https://www.pampatype.com/",
+		"support": "No",
+		"licenseUrl": "https://www.pampatype.com/eula",
+		"license": "No Modifications. You may not modify, adapt, reverse engineer, disassemble, convert from one font format to another, or create derivative works from our fonts without our written consent.",
+		"licenseVersion": "4.0"
+	},
+	{
+		"name": "OH no Type Co",
+		"website": "https://www.ohnotype.co/",
+		"support": "No",
+		"licenseUrl": "https://ohnotype.co/info/licenses/web",
+		"license": "You are not permitted to decompile, reverse engineer, disassemble, modify, alter or change the Web Font Software"
+	},
+	{
+		"name": "Connary Fagen",
+		"website": "https://connary.com/",
+		"support": "No",
+		"licenseUrl": "https://connary.com/EULA-Webfont.pdf",
+		"license": "You may not … Modify the Font Software in any way, including to create, directly or indirectly, Derivative Works from the Font Software"
+	},
+	{
+		"name": "Re-Type",
+		"website": "https://www.re-type.com/",
+		"support": "No",
+		"licenseUrl": "https://www.re-type.com/licenses/webfont/",
+		"license": "You may not use conversion or editing tools on the Licensed Web Fonts."
+	},
+	{
+		"name": "TipoType",
+		"website": "https://www.tipotype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://tipotype.com/web-eula/",
+		"license": "Subsetting the Font Software is permitted for the sole purpose of optimising loading times but voids TipoType’s warranty of the correct performance of the Font Software.",
+		"licenseVersion": "October 1st of 2017"
+	},
+	{
+		"name": "DSType",
+		"website": "https://www.dstype.com/",
+		"support": "No",
+		"licenseUrl": "https://www.dstype.com/support/web",
+		"license": "The User may not adapt, … delete existing characters, or otherwise change the font software …"
+	},
+	{
+		"name": "Velvetyne",
+		"website": "https://www.velvetyne.fr/",
+		"support": "Yes",
+		"licenseUrl": "https://www.velvetyne.fr/about/",
+		"license": "You have the right to study and to modify this typeface."
+	},
+	{
+		"name": "Playtype",
+		"website": "https://playtype.com/",
+		"support": "No",
+		"licenseUrl": "https://playtype.com/general-information/eula/",
+		"license": "The Customer is strictly prohibited from … changing or modifying the fonts in any way.",
+		"licenseVersion": "April 2023"
 	}
 ]
