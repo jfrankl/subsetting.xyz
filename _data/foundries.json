@@ -340,5 +340,21 @@
 		"licenseUrl": "https://www.fairetype.com/licensing",
 		"license": "You are permitted to subset the Web Fonts for the sole purpose of reducing file size.",
 		"licenseVersion": "October 2022"
+	},
+	{
+		"name": "MB Type",
+		"website": "https://mbtype.com/",
+		"support": "Yes",
+		"licenseUrl": "https://mbtype.com/license/",
+		"license": "Licensed users can modify my fonts … No technical support is available for modified fonts.",
+		"licenseVersion": "v.220504"
+	},
+	{
+		"name": "Berkley Graphics",
+		"website": "https://berkleygraphics.com/",
+		"support": "No",
+		"licenseUrl": "https://cdn.berkeleygraphics.com/static/legal/licenses/commercial-license.pdf",
+		"license": "You may not modify the fonts in any way.",
+		"licenseVersion": "DX-101-06. September, 2023"
 	}
 ]
