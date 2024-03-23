@@ -5,7 +5,7 @@
     <th>License</th>
     <th></th>
   </tr>
-  {% for foundry in foundries %}
+  {% for foundry in foundries | sortFoundries %}
   <tr class="foundry">
     <td class="foundry-name">
       <a href="{{foundry.website}}">{{foundry.name}}</a>

@@ -71,6 +71,16 @@ module.exports = function (eleventyConfig) {
     ghostMode: false,
   });
 
+  eleventyConfig.addNunjucksFilter("sortFoundries", function(foundries) {
+    // Sort by .support (in order: Yes, Partial, No), then .name
+    return foundries.sort((a, b) => {
+      if (a.support === b.support) {
+        return a.name.localeCompare(b.name);
+      }
+      return b.support.localeCompare(a.support);
+    });
+  });
+
   return {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
